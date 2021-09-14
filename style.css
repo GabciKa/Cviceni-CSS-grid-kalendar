@@ -10,14 +10,25 @@ body {
 
 .kalendar {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-	gap: 5px;
+	grid-template-columns: 60px 60px 60px 60px 60px 60px 60px;
+	grid-template-rows: 60px 60px 60px 60px 60px 60px;
+	gap: 2px;
 }
 
 .kalendar li {
 	list-style: none;
-	border: solid black 1px;
 	text-align: center;
-	padding: 10px;
+	border: solid lightgrey 1px;
 }
+
+.kalendar .zahlavi {
+	border: none;
+	background-color: #ff6347;
+	color: white;
+}
+
+.predchozi, .nasledujici {
+	background-color: lightgrey;
+	color: grey;
+}
+
