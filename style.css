@@ -8,3 +8,16 @@ body {
 
 /* ---------------------------------------------------- */
 
+.kalendar {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	gap: 5px;
+}
+
+.kalendar li {
+	list-style: none;
+	border: solid black 1px;
+	text-align: center;
+	padding: 10px;
+}
