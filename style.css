@@ -10,15 +10,18 @@ body {
 
 .kalendar {
 	display: grid;
-	grid-template-columns: 60px 60px 60px 60px 60px 60px 60px;
-	grid-template-rows: 60px 60px 60px 60px 60px 60px;
+	grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+	grid-template-rows: 50px 50px 50px 50px 50px 50px;
 	gap: 2px;
+	padding-left: 0;
 }
 
 .kalendar li {
 	list-style: none;
-	text-align: center;
 	border: solid lightgrey 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .kalendar .zahlavi {
@@ -32,3 +35,18 @@ body {
 	color: grey;
 }
 
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	height: 100%;
+	width: 100%;
+}
+
+button:hover {
+	background-color: lightgrey;
+}
