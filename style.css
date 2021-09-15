@@ -32,7 +32,6 @@ body {
 
 .predchozi, .nasledujici {
 	background-color: lightgrey;
-	color: grey;
 }
 
 button {
@@ -48,5 +47,5 @@ button {
 }
 
 button:hover {
-	background-color: lightgrey;
+	background-color: #ececec;
 }
